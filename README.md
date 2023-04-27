@@ -5,9 +5,9 @@ Before moving further, create a directory inside the inclusive/non_inclusive/exc
 ## Inclusive folder contains the implementation of Inclusive hierarchy
 
 build using 
-'''bash
+```bash
 ./build_champsim.sh ${BRANCH} ${L1I_PREFETCHER} ${L1D_PREFETCHER} ${L2C_PREFETCHER} ${LLC_PREFETCHER} ${LLC_REPLACEMENT} ${NUM_CORE}
-''' 
+```
 in inclusive folder  <br>
 run for a single core using ./run_champsim.sh [BINARY] [N_WARM] [N_SIM] [TRACE] [OPTION] in inclusive folder  <br>
 for multicore simulation use ./run_4core.sh [BINARY] [N_WARM] [N_SIM] [N_MIX] [TRACE0] [TRACE1] [TRACE2] [TRACE3] [OPTION] in inclusive folder  <br>
