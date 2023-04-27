@@ -1,0 +1,2 @@
+llc case:
+lfu ~ drrip > lru > random > fifo

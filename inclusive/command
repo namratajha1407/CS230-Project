@@ -1,0 +1,2 @@
+ r -warmup_instructions 1000000 -simulation_instructions 1000000 -traces dpc3_traces/bfs-3.trace.gz 
+
