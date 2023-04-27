@@ -1,4 +1,3 @@
-# CS230-Project
 # Cache Hierarchy Optimization for Graph Analytics
 
 ## Inclusive folder contains the implementation of Inclusive hierarchy
