@@ -29,7 +29,8 @@ run for a single core in the respective folder using
 ./run_champsim.sh [BINARY] [N_WARM] [N_SIM] [TRACE] [OPTION]
 ```
 for multicore simulation in the respective folder use 
-```./run_4core.sh [BINARY] [N_WARM] [N_SIM] [N_MIX] [TRACE0] [TRACE1] [TRACE2] [TRACE3] [OPTION]
+```
+./run_4core.sh [BINARY] [N_WARM] [N_SIM] [N_MIX] [TRACE0] [TRACE1] [TRACE2] [TRACE3] [OPTION]
 ```
 ## References
 https://par.nsf.gov/servlets/purl/10080635  <br>
