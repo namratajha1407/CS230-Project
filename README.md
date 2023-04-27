@@ -9,18 +9,12 @@ build in inclusive folder using
 ./build_champsim.sh ${BRANCH} ${L1I_PREFETCHER} ${L1D_PREFETCHER} ${L2C_PREFETCHER} ${LLC_PREFETCHER} ${LLC_REPLACEMENT} ${NUM_CORE}
 ```
 
-run for a single core using ./run_champsim.sh [BINARY] [N_WARM] [N_SIM] [TRACE] [OPTION] in inclusive folder  <br>
-for multicore simulation use ./run_4core.sh [BINARY] [N_WARM] [N_SIM] [N_MIX] [TRACE0] [TRACE1] [TRACE2] [TRACE3] [OPTION] in inclusive folder  <br>
-
 ## Non Inclusive folder contains the implementation of Non Inclusive hierarchy
 
 build in non inclusive folder using 
 ```
 ./build_champsim.sh ${BRANCH} ${L1I_PREFETCHER} ${L1D_PREFETCHER} ${L2C_PREFETCHER} ${LLC_PREFETCHER} ${LLC_REPLACEMENT} ${NUM_CORE}
 ```
-run for a single core using ./run_champsim.sh [BINARY] [N_WARM] [N_SIM] [TRACE] [OPTION] in non inclusive folder  <br>
-for multicore simulation use ./run_4core.sh [BINARY] [N_WARM] [N_SIM] [N_MIX] [TRACE0] [TRACE1] [TRACE2] [TRACE3] [OPTION] in non inclusive folder  <br>
-
 
 ## Exclusive folder contains the implementation of Exclusive hierarchy
 
@@ -28,9 +22,15 @@ build in exclusive folder using
 ```
 ./build_champsim.sh ${BRANCH} ${L1I_PREFETCHER} ${L1D_PREFETCHER} ${L2C_PREFETCHER} ${LLC_PREFETCHER} ${LLC_REPLACEMENT} ${NUM_CORE}
 ```
-run for a single core using ./run_champsim.sh [BINARY] [N_WARM] [N_SIM] [TRACE] [OPTION] in exclusive folder  <br>
-for multicore simulation use ./run_4core.sh [BINARY] [N_WARM] [N_SIM] [N_MIX] [TRACE0] [TRACE1] [TRACE2] [TRACE3] [OPTION] in exclusive folder  <br>
- 
+
+## Running the code
+run for a single core in the respective folder using 
+```
+./run_champsim.sh [BINARY] [N_WARM] [N_SIM] [TRACE] [OPTION]
+```
+for multicore simulation in the respective folder use 
+```./run_4core.sh [BINARY] [N_WARM] [N_SIM] [N_MIX] [TRACE0] [TRACE1] [TRACE2] [TRACE3] [OPTION]
+```
 ## References
 https://par.nsf.gov/servlets/purl/10080635  <br>
 https://core.ac.uk/download/pdf/147122148.pdf
